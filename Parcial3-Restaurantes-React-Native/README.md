@@ -60,9 +60,26 @@ npm start
 
 ## 🔧 Configuración
 
-1. **Firebase**: Configura tus credenciales en `config/firebaseConfig.ts`
-2. **Backend API**: Configura la URL en `config/api.ts`
-3. **Gmail SMTP**: Configura las credenciales en `backend/.env`
+### ⚠️ IMPORTANTE: Seguridad de Credenciales
+
+**Las credenciales deben configurarse localmente y NUNCA subirse al repositorio.**
+
+Ver [SECURITY.md](./SECURITY.md) para más información.
+
+### Configuración Local
+
+1. **Frontend**: 
+   - Copia `.env.example` a `.env` y completa con tus credenciales de Firebase
+
+2. **Backend**: 
+   - Copia `backend/config.env.example` a `backend/.env`
+   - Completa con tus credenciales de Gmail y Firebase Admin SDK
+
+3. **Firebase Console**:
+   - Ve a Firebase Console y genera las API keys necesarias
+   
+4. **Gmail App Password**:
+   - Genera una contraseña de aplicación en [Google Account](https://myaccount.google.com/apppasswords)
 
 ## 📱 Tecnologías Utilizadas
 
