@@ -7,12 +7,12 @@ import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDtEPN68cD9qwaU766SsLhn8DuLyDIfTxY",
-  authDomain: "reactnative-miapp.firebaseapp.com",
-  projectId: "reactnative-miapp",
-  storageBucket: "reactnative-miapp.firebasestorage.app",
-  messagingSenderId: "362829829401",
-  appId: "1:362829829401:web:177b7167d9cb55fbe62188"
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
