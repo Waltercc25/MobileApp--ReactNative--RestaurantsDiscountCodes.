@@ -2,7 +2,17 @@
 
 ## ⚠️ IMPORTANTE: Credenciales Comprometidas
 
-**Las credenciales que fueron expuestas en el commit inicial (`451b2ce`) han sido comprometidas y deben ser revocadas inmediatamente.**
+**Las credenciales que fueron expuestas en los commits iniciales han sido comprometidas y deben ser revocadas inmediatamente.**
+
+### Estado Actual
+
+✅ **Archivos con credenciales eliminados del repositorio:**
+- `backend/config.env` (eliminado en commit `5c39038`)
+- `backend/.env` (eliminado en commit `89891fe`)
+
+❌ **Pero las credenciales siguen en el historial de Git**
+
+**Es CRÍTICO que revoques TODAS estas credenciales inmediatamente.**
 
 ### Credenciales que necesitan ser revocadas:
 
