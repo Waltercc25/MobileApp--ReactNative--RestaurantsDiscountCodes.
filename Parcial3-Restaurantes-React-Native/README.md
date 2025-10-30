@@ -100,11 +100,15 @@ Ver [SECURITY.md](./SECURITY.md) para más información.
 
 ## 📚 Documentación
 
+### Documentación Técnica del Código
 - [Guía de Autenticación](./AUTHENTICATION_GUIDE.md)
 - [Configuración Firebase](./FIREBASE_SETUP.md)
 - [Sistema de Notificaciones](./NOTIFICATION_SYSTEM_README.md)
 - [Sistema OTP](./OTP_SYSTEM_README.md)
 - [Inicio Rápido](./QUICK_START.md)
+
+### Documentación Explicativa del Proyecto
+- **[📁 Carpeta de Documentación](./documentacion/)** - Contiene la explicación completa de la aplicación, diagramas y documentación complementaria que describe qué es y cómo funciona la app (separada del código pero parte importante del proyecto).
 
 ## 🗂️ Estructura del Proyecto
 
@@ -116,7 +120,8 @@ Ver [SECURITY.md](./SECURITY.md) para más información.
 ├── config/             # Configuración
 ├── lib/                # Utilidades y helpers
 ├── types/              # Definiciones TypeScript
-└── backend/            # Servidor Node.js
+├── backend/            # Servidor Node.js
+└── documentacion/       # Documentación explicativa (diagramas y explicaciones)
 ```
 
 ## 🎨 Características de UI
